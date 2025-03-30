@@ -88,17 +88,27 @@
 <div class="container mt-4">
   <div class="row">
     
-    <!-- Column 1 -->
-    <div class="col-md-4">
-      <div class="card mb-4">
-              <img src="https://i.pinimg.com/474x/d5/c5/08/d5c508ed0377edf4259ee52ffbebc722.jpg" class="card-img-top" style="height: 400px; object-fit: cover;" alt="Nails">
-        <div class="card-body">
-          <h5 class="card-title">Nails</h5>
-          <p class="card-text">Biab, acrylics, gel polish and more</p>
-          <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#storyModal1">Read More</button>
-        </div>
+    <!-- Modal for Nails -->
+<div class="modal fade" id="storyModal1" tabindex="-1" aria-labelledby="storyModal1Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="storyModal1Label">Nail Services</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="https://i.pinimg.com/474x/d5/c5/08/d5c508ed0377edf4259ee52ffbebc722.jpg" class="img-fluid rounded mb-3" alt="Nails">
+        <p>We offer a wide range of nail services including Biab, acrylics, gel polish, and much more.</p>
+        <p><strong>Book an appointment today and get 10% off your first visit!</strong></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <a href="#" class="btn btn-primary">Book Now</a>
       </div>
     </div>
+  </div>
+</div>
+
 
     <!-- Column 2 -->
     <div class="col-md-4">
